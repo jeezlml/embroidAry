@@ -1,0 +1,110 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.categorias-banner {
+  display: flex;
+}
+
+.categorias-banner h2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.categorias h2 {
+  margin-left: 1rem;
+}
+
+.banner-principal {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.banner-principal div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categorias {
+  display: flex;
+  padding: 5%;
+  background-color: #e5e1da;
+}
+
+.categorias div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+section .lista {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+section .grid-images {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2rem;
+}
+
+.grid-images img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-med {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #fbf9f1;
+  padding: 5%;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.sale {
+  padding: 5%;
+  text-align: center;
+  background-color: #ffe2e2;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 5%;
+}
